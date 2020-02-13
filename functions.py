@@ -32,3 +32,14 @@ def validarDecimal(num):
     except ValueError:
         isValid = False
     return isValid
+
+def validarString(stringEsperado):
+    isValid = False
+    try:
+        while not isValid:
+            resp = input("ingrese No") 
+            if stringEsperado == resp:
+                isValid = True
+    except ValueError:
+        isValid = False
+    return isValid  
