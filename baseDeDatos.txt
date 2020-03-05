@@ -1,0 +1,3 @@
+Vehiculo,Rojo,1,X,X,X,X
+Coche,Verde,1,1.0,1,X,X
+Bicicleta,Tra,5,X,X,deportivo,X
